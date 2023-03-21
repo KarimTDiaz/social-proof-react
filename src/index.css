@@ -1,3 +1,22 @@
+:root{
+	--primary-color:#512051;
+	--secondary-color:#EE69A4;
+	--primary-color-soft:#F7F2F7;
+	--soft-text:#927B91;
+	--text:#FFFFFF;
+
+}
+*{
+	box-sizing: border-box;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
 body {
-	font-family: sans-serif;
+    margin:0;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'League Spartan', sans-serif;
 }
