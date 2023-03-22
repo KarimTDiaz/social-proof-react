@@ -1,10 +1,10 @@
 import style from './stars.module.scss';
 import { v4 } from 'uuid';
-
-const Stars = ({ stars }) => {
+const stars = 5;
+const Stars = () => {
 	return (
 		<div className={style.stars}>
-			{stars.map(() => (
+			{[...Array(stars)].map(() => (
 				<img
 					className={style['stars-item']}
 					src='./public/images/icon-star.svg'
@@ -15,4 +15,5 @@ const Stars = ({ stars }) => {
 		</div>
 	);
 };
+
 export default Stars;
